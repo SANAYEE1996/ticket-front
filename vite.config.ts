@@ -52,6 +52,7 @@ export default defineConfig(({ mode }) => {
       },
     },
     server: {
+      port: 4000,
       host: true,
       proxy: {
         "/dev": {
