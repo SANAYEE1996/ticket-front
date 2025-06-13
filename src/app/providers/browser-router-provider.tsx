@@ -4,7 +4,7 @@ import {
   useRouteError,
 } from "react-router-dom";
 import { BASE_URL } from "../../shared/config";
-import { LoginPage } from "../../pages/login";
+import LoginPage from "../../pages/login";
 
 function BubbleError() {
   const error: any = useRouteError();

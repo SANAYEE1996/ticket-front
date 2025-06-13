@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.buttonGroup button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.googleButton {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+}
+
+.googleButton:hover {
+  background-color: #f8f8f8;
+}
+
+.naverButton {
+  background-color: #03C75A;
+  border: none;
+  color: white;
+}
+
+.naverButton:hover {
+  background-color: #02b351;
+}
+
+.kakaoButton {
+  background-color: #FEE500;
+  border: none;
+  color: #000000;
+}
+
+.kakaoButton:hover {
+  background-color: #f4dc00;
+} 
